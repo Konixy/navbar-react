@@ -11,5 +11,6 @@ module.exports = withMT({
   },
   plugins: [
     require('flowbite/plugin')
-  ]
+  ],
+  darkMode: 'media'
 })
