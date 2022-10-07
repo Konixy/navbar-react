@@ -22,7 +22,7 @@ export default class Header extends Component {
       return this.setState(this.state)
     };
   }
-
+  
   openMenu = () => {
     let e = document.getElementById('navbar-sticky').style.display
     e === 'block' ? e = 'none' : e = 'block'
